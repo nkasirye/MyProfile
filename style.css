@@ -1,3 +1,7 @@
+html,body{
+    min-height: 100%;
+}
+
 #name{
     color: blue;
 }
@@ -17,3 +21,29 @@ header{
     height: 60rem;
     float: right;
 }
+
+.page-wrap {
+    min-height: 100vh;
+    /* equal to footer height */
+      margin-bottom: -11rem; 
+}
+.page-wrap:after{
+    content: "";
+    display: block;
+  }
+.footer, .page-wrap:after{
+    min-height: 11rem;
+}
+
+footer{
+    background-color: bisque;
+    padding: 7rem
+}
+
+.tabs a{
+    padding-left: 3.0rem;
+}
+
+.big-font{
+    font-size: 3.7rem;
+ }
