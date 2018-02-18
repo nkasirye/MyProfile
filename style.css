@@ -1,0 +1,19 @@
+#name{
+    color: blue;
+}
+
+#jobTitle{
+    color: blue
+}
+
+header{
+    margin-bottom: 7rem;
+    background-color: aquamarine;
+    height: 5rem;
+    padding: 1.5rem;
+}
+
+.image-holder {
+    height: 60rem;
+    float: right;
+}
